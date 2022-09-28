@@ -1,2 +1,7 @@
 .buttonRow {
+    overflow: auto;
+    white-space: nowrap;
+    padding: 24px;
+    margin-inline: -24px; /* buttons touch the edge of the div on scroll, based on screenshots. */
+    margin-block-end: -20px;
 }
